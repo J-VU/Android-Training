@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Score Keeper</string>
+    <string name="button_context_add">Add to Score</string>
+    <string name="button_context_subtract">Subtract from Score</string>
+    <string name="team_name_one">Team One</string>
+    <string name="team_name_two">Team Two</string>
+    <string name="team_1_score">00</string>
+    <string name="team_2_score">00</string>
+    <string name="hint_team_name_2">Team 2</string>
+    <string name="hint_team_name_1">Team 1</string>
+    <string name="button_text_reset">Reset</string>
+
+    <!--Themes-->
+    <string name="defaultMode">Default Mode</string>
+    <string name="retroMode">Retro Mode</string>
+    <string name="context_Reset">Reset Scores</string>
+    <string name="retro_mode">Retro</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <!--<color name="colorPrimaryDark">#00574B</color>-->
+    <color name="colorAccent">#D81B60</color>
+
+
+    <!--Retro Metro Color Scheme-->
+    <color name="color1">#00aba9</color>
+    <color name="color2">#ff0097</color>
+    <color name="color3">#a200ff</color>
+    <color name="color4">#1ba1e2</color>
+    <color name="color5">#f09609</color>
+    <color name="color6">#220a22</color>
+
+</resources>

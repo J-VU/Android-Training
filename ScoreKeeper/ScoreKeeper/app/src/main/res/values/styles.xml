@@ -1,0 +1,97 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!--DAY THEME-->
+    <style name="dayContainer" parent="retroContainer">
+        <item name="android:background">#fff</item>
+    </style>
+
+    <!--DAY THEME-->
+    <style name="dayTeam" parent="retroTeamOne">
+        <item name="android:background">@color/color4</item>
+    </style>
+
+
+    <!--RETRO THEME-->
+    <style name="retroContainer" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/color6</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">8dp</item>
+    </style>
+    <!--RETRO THEME-->
+    <style name="retroTeamOne">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_weight">100</item>
+        <item name="android:background">@color/color3</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    <!--RETRO THEME-->
+    <style name="retroTeamTwo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">100</item>
+        <item name="android:background">@color/color2</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <!-- Style for all Score Buttons to be Round-->
+    <style name="ScoreButtons" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+
+    <!-- Style for Increments-->
+    <style name="ScoreIncrement" parent="ScoreButtons">
+        <item name="android:tint">@color/color1</item>
+        <item name="android:src">@drawable/ic_increase</item>
+        <item name="android:focusable">false</item>
+        <item name="android:contentDescription">@string/button_context_add</item>
+    </style>
+
+    <!-- Style for Decrements-->
+    <style name="ScoreDecrement" parent="ScoreButtons">
+        <item name="android:tint">@color/color1</item>
+        <item name="android:src">@drawable/ic_decrease</item>
+        <item name="android:contentDescription">@string/button_context_subtract</item>
+    </style>
+
+    <!-- Style For TEAM NAME -->
+    <style name="ScoreTextTeam">
+        <item name="android:cursorVisible">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Headline</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ScoreTextCounter">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Headline</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+
+
+
+</resources>
